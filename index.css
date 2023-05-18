@@ -1,8 +1,6 @@
 .skills-card-img{
     width:150px
 }
-
-
 .skill-wrapper{
     display: grid;
     grid-template-columns: repeat(5,1fr);
