@@ -8,3 +8,6 @@
 .menu{
     display:flex;
 }
+.card{
+    width: 40%;
+}
