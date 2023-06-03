@@ -9,5 +9,21 @@
     display:flex;
 }
 .card{
-    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 70%;
+    margin: auto;
+
+}
+.project-card{
+align-items: center;
+padding: 25px;
+margin: 20px;
+border: 1px solid black;
+}
+.project-description{
+    height: 15%
+}
+.project-image{
+    width: 100%;
 }
