@@ -11,6 +11,21 @@ body{
 }
 .menu{
     display:flex;
+ margin-left: 40%;
+ list-style: none;
+}
+.menu li{
+    margin: auto;
+    font-size: 18px;
+}
+.menu li a{
+    text-decoration: none;
+    /* border: 1px solid red; */
+    margin: auto;
+    color:white;
+}
+.menu li a:hover{
+    color:red;
 }
 .card{
     display: grid;
