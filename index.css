@@ -1,7 +1,4 @@
-body{
-    background-color: #111111;
-    color: white;
-}
+
 .skills-card-img{
     width:150px
 }
@@ -9,14 +6,27 @@ body{
     display: grid;
     grid-template-columns: repeat(5,1fr);
 }
+.navbar{
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    background-color: #111111;
+}
 .menu{
     display:flex;
  margin-left: 40%;
  list-style: none;
+
+}
+body{
+    background-color: #111111;
+    color: white;
+    padding-top: 100px;
 }
 .menu li{
     margin: auto;
     font-size: 18px;
+        /* border: 1px solid red; */
 }
 .menu li a{
     text-decoration: none;
