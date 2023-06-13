@@ -37,6 +37,17 @@ body{
 .menu li a:hover{
     color:red;
 }
+                      /* skills */
+
+.skill-wrapper{
+      border: 1px solid rgb(104, 97, 97);
+    width: 70%;
+    margin: auto;
+}
+.skills-card{
+    /* border: 1px solid rgb(104, 97, 97); */
+    margin: auto;
+}
 .card{
     display: grid;
     grid-template-columns: repeat(2,1fr);
