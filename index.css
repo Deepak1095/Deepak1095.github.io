@@ -41,14 +41,17 @@ body{
 .about-content{
     /* border: 1px solid red; */
     display: grid;
-  grid-template-columns: 30% 60%;
+  grid-template-columns: 50% 50%;
   margin: auto;
 }
 .column_left{
   margin: auto;
 }
 .column_right{
-  margin: auto;
+    width: 80%;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.6;
 }
  .home-img{
 
