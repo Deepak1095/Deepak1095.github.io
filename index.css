@@ -37,6 +37,27 @@ body{
 .menu li a:hover{
     color:red;
 }
+                                    /* about */
+.about-content{
+    /* border: 1px solid red; */
+    display: grid;
+  grid-template-columns: 30% 60%;
+  margin: auto;
+}
+.column_left{
+  margin: auto;
+}
+.column_right{
+  margin: auto;
+}
+ .home-img{
+
+    width: 200px;
+    border-radius: 40%;
+ }
+
+
+
                       /* skills */
 
 .skill-wrapper{
