@@ -11,6 +11,7 @@
     top: 0; 
     width: 100%;
     background-color: #111111;
+    border-bottom: 1px solid white;
 }
 .menu{
     display:flex;
@@ -62,7 +63,9 @@ body{
 
 
                       /* skills */
-
+#skills{
+    margin-top: 70px;
+}
 .skill-wrapper{
       border: 1px solid rgb(104, 97, 97);
     width: 70%;
@@ -71,6 +74,9 @@ body{
 .skills-card{
     /* border: 1px solid rgb(104, 97, 97); */
     margin: auto;
+}
+.skill-heading{
+    text-align: center;
 }
 .card{
     display: grid;
