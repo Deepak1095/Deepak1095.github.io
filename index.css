@@ -78,6 +78,15 @@ body{
 .skill-heading{
     text-align: center;
 }
+
+/* projects */
+.projects{
+    margin-top: 50px;
+}
+#project-heading{
+    display: flex;
+    justify-content: center;
+}
 .card{
     display: grid;
     grid-template-columns: repeat(2,1fr);
