@@ -123,6 +123,16 @@ border: 1px solid teal;
     border-radius: 5px;
     font-size: large;
 }
+/* github statics */
+.github-statics h2{
+    display: flex;
+    justify-content: center;
+}
+#statics{
+    margin: auto;
+    display: flex;
+    width: 80%;
+}
 #contact-form{
     width: 300px;
     /* border:1px solid red; */
