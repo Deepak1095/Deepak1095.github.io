@@ -133,6 +133,66 @@ border: 1px solid teal;
     display: flex;
     width: 80%;
 }
+
+                               /* contacts  */
+#contact{
+    border:1px solid red;
+  background-color: #1b6ec4;
+  padding-bottom: 80px;
+}
+#contact-title{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact-phone{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact-email{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:white
+}
+#contact-email:hover{
+color: rgb(226, 201, 201);
+}
+
+#contact-address{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#social-account{
+    display: flex;
+    justify-content: center;
+}
+#contact-linkedin-img{
+    width: 60px;
+    background-color: white;
+    border-radius: 10px;
+    /* border:1px solid red; */
+    margin: 20px;
+}
+#contact-github-img{
+    width: 40px;
+    background-color: white;
+    border-radius: 10px;
+    /* border:1px solid red; */
+    margin: 20px;
+    padding: 10px;
+}
+
+
+
+
 #contact-form{
     width: 300px;
     /* border:1px solid red; */
