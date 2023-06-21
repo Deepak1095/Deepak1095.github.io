@@ -20,8 +20,6 @@
 
 }
 body{
-    background-color: #111111;
-    color: white;
     padding-top: 100px;
 }
 .menu li{
@@ -136,9 +134,9 @@ border: 1px solid teal;
 
                                /* contacts  */
 #contact{
-    border:1px solid red;
   background-color: #1b6ec4;
-  padding-bottom: 80px;
+  color: white;
+  padding: 10px 80px;
 }
 #contact-title{
     font-size: 40px;
@@ -189,7 +187,14 @@ color: rgb(226, 201, 201);
     margin: 20px;
     padding: 10px;
 }
-
+#contact-linkedin-img:hover{
+    background-color: #a9d0d9;
+    border:1px solid #145091
+}
+#contact-github-img:hover{
+    background-color: #a9d0d9;
+    border:1px solid #145091
+}
 
 
 
