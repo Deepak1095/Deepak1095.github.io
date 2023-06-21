@@ -130,7 +130,22 @@ border: 1px solid teal;
     margin: auto;
     display: flex;
     width: 80%;
+    padding-bottom: 40px;
 }
+
+          /* github calender */
+
+.github-calendar{
+/* border: 1px solid red; */
+width: 60%;
+margin: auto;
+padding-bottom: 40px;
+}
+#github-statics-title{
+    display: flex;
+    justify-content: center;
+}
+
 
                                /* contacts  */
 #contact{
