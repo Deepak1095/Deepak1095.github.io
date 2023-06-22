@@ -37,26 +37,39 @@ body{
     color:red;
 }
                                     /* about */
-.about-content{
-    /* border: 1px solid red; */
+/* .about-content{
+    /* border: 1px solid red; 
     display: grid;
   grid-template-columns: 50% 50%;
   margin: auto;
+} */
+#about{
+    padding-top: 100px;
 }
-.column_left{
-  margin: auto;
+.about-title{
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    padding-bottom: 10px;
 }
-.column_right{
-    width: 80%;
-    text-align: left;
+.profile-image{
+    margin: auto;
+    width: 200px;
+}
+.profile-image img{
+    border-radius: 50%;
+    width: 200px;
+}
+#user-detail-intro{
+    width: 60%;
+    margin: auto;
+    padding-top: 20px;
     font-size: 18px;
     line-height: 1.6;
-}
- .home-img{
+    text-align: center;
 
-    width: 200px;
-    border-radius: 40%;
- }
+}
+
 
 
 
