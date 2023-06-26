@@ -1,66 +1,106 @@
+.skills-card-img {
+    width: 150px
+}
 
-.skills-card-img{
-    width:150px
-}
-.skill-wrapper{
+.skill-wrapper {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(5, 1fr);
 }
-.navbar{
+
+.navbar {
     position: fixed;
-    top: 0; 
+    top: 0;
     width: 100%;
     background-color: #111111;
     border-bottom: 1px solid white;
 }
-.menu{
-    display:flex;
- margin-left: 40%;
- list-style: none;
+
+.menu {
+    display: flex;
+    margin-left: 40%;
+    list-style: none;
 
 }
-body{
-    padding-top: 100px;
-}
-.menu li{
+
+.menu li {
     margin: auto;
     font-size: 18px;
-        /* border: 1px solid red; */
+    /* border: 1px solid red; */
 }
-.menu li a{
+
+.menu li a {
     text-decoration: none;
     /* border: 1px solid red; */
     margin: auto;
-    color:white;
+    color: white;
 }
-.menu li a:hover{
-    color:red;
+
+.menu li a:hover {
+    color: red;
 }
-                                    /* about */
+
+/* home page */
+
+#home {
+    padding-top: 100px;
+    height: 100vh;
+    background-color: #1b6ec4;
+    /* border: 1px solid red; */
+}
+
+#user-detail-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 60px;
+}
+
+#resume-link-2 {
+    width: 160px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: #3887dd;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+
+}
+
+/* about */
 /* .about-content{
     /* border: 1px solid red; 
     display: grid;
   grid-template-columns: 50% 50%;
   margin: auto;
 } */
-#about{
+#about {
     padding-top: 100px;
 }
-.about-title{
+
+.about-title {
     display: flex;
     justify-content: center;
     font-size: 26px;
     padding-bottom: 10px;
 }
-.profile-image{
+
+.profile-image {
     margin: auto;
     width: 200px;
 }
-.profile-image img{
+
+.profile-image img {
     border-radius: 50%;
     width: 200px;
 }
-#user-detail-intro{
+
+#user-detail-intro {
     width: 60%;
     margin: auto;
     padding-top: 20px;
@@ -73,65 +113,76 @@ body{
 
 
 
-                      /* skills */
-#skills{
+                 /* skills */
+#skills {
     margin-top: 70px;
 }
-.skill-wrapper{
-      border: 1px solid rgb(104, 97, 97);
+
+.skill-wrapper {
+    border: 1px solid rgb(104, 97, 97);
     width: 70%;
     margin: auto;
 }
-.skills-card{
+
+.skills-card {
     /* border: 1px solid rgb(104, 97, 97); */
     margin: auto;
 }
-.skill-heading{
+
+.skill-heading {
     text-align: center;
 }
 
-                     /* projects */
-#projects{
+/* projects */
+#projects {
     padding-top: 50px;
 }
-#project-heading{
+
+#project-heading {
     display: flex;
     justify-content: center;
 }
-.card{
+
+.card {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     width: 70%;
     margin: auto;
 
 }
-.project-card{
-align-items: center;
-padding: 25px;
-margin: 20px;
-border: 1px solid teal;
+
+.project-card {
+    align-items: center;
+    padding: 25px;
+    margin: 20px;
+    border: 1px solid teal;
 }
-.project-description{
+
+.project-description {
     height: 15%;
     /* border:1px solid red */
 }
-.project-image{
+
+.project-image {
     width: 100%;
     height: 250;
 }
-.project-tech-stack{
+
+.project-tech-stack {
     /* border:1px solid red; */
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
 }
-.project-links{
+
+.project-links {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
     margin-bottom: 20px;
     /* border:1px solid red */
 }
-.project-github-link{
+
+.project-github-link {
     text-decoration: none;
     color: rgb(0, 0, 0);
     padding: 7px;
@@ -139,7 +190,8 @@ border: 1px solid teal;
     border-radius: 5px;
     font-size: large;
 }
-.project-deployed-link{
+
+.project-deployed-link {
     text-decoration: none;
     color: rgb(0, 0, 0);
     padding: 7px;
@@ -147,80 +199,90 @@ border: 1px solid teal;
     border-radius: 5px;
     font-size: large;
 }
+
 /* github statics */
-.github-statics h2{
+.github-statics h2 {
     display: flex;
     justify-content: center;
 }
-#statics{
+
+#statics {
     margin: auto;
     display: flex;
     width: 80%;
     padding-bottom: 40px;
 }
 
-          /* github calender */
+/* github calender */
 
-.github-calendar{
-/* border: 1px solid red; */
-width: 60%;
-margin: auto;
-padding-bottom: 40px;
+.github-calendar {
+    /* border: 1px solid red; */
+    width: 60%;
+    margin: auto;
+    padding-bottom: 40px;
 }
-#github-statics-title{
+
+#github-statics-title {
     display: flex;
     justify-content: center;
 }
 
 
-                               /* contacts  */
-#contact{
-  background-color: #1b6ec4;
-  color: white;
-  padding: 10px 80px;
+/* contacts  */
+#contact {
+    background-color: #1b6ec4;
+    color: white;
+    padding: 10px 80px;
 }
-#contact-title{
+
+#contact-title {
     font-size: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#contact-phone{
+
+#contact-phone {
     font-size: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#contact-email{
+
+#contact-email {
     font-size: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color:white
-}
-#contact-email:hover{
-color: rgb(226, 201, 201);
+    color: white
 }
 
-#contact-address{
+#contact-email:hover {
+    color: rgb(226, 201, 201);
+}
+
+#contact-address {
     font-size: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#social-account{
+
+#social-account {
     display: flex;
     justify-content: center;
 }
-#contact-linkedin-img{
+
+#contact-linkedin-img {
     width: 60px;
     background-color: white;
     border-radius: 10px;
     /* border:1px solid red; */
     margin: 20px;
 }
-#contact-github-img{
+
+#contact-github-img {
     width: 40px;
     background-color: white;
     border-radius: 10px;
@@ -228,37 +290,41 @@ color: rgb(226, 201, 201);
     margin: 20px;
     padding: 10px;
 }
-#contact-linkedin-img:hover{
+
+#contact-linkedin-img:hover {
     background-color: #a9d0d9;
-    border:1px solid #145091
-}
-#contact-github-img:hover{
-    background-color: #a9d0d9;
-    border:1px solid #145091
+    border: 1px solid #145091
 }
 
+#contact-github-img:hover {
+    background-color: #a9d0d9;
+    border: 1px solid #145091
+}
 
 
-#contact-form{
+
+#contact-form {
     width: 300px;
     /* border:1px solid red; */
     margin: auto;
 }
-#contact-form input{
+
+#contact-form input {
     width: 100%;
     height: 25px;
-    margin:3px ;
+    margin: 3px;
     background-color: #111111;
     color: white;
     font-size: 16px;
-    border : 0px;
+    border: 0px;
     border-bottom: 1px solid white;
 }
-#contact-form button{
- margin-left: 40%;
- background-color: #111111;
- color: white;
- border : 0px;
- border-bottom: 1px solid white;
-   /* border:1px solid red; */
+
+#contact-form button {
+    margin-left: 40%;
+    background-color: #111111;
+    color: white;
+    border: 0px;
+    border-bottom: 1px solid white;
+    /* border:1px solid red; */
 }
