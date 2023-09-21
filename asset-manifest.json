@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.27d6f20b.js",
+    "main.js": "/static/js/main.4af71370.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Deepak_Dhankhar_Resume.pdf": "/static/media/Deepak_Dhankhar_Resume.fd301cce047e5a44b219.pdf",
     "static/media/personalPhoto.jpg": "/static/media/personalPhoto.0c699a81696b10169374.jpg",
     "index.html": "/index.html",
     "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.27d6f20b.js.map": "/static/js/main.27d6f20b.js.map",
+    "main.4af71370.js.map": "/static/js/main.4af71370.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.27d6f20b.js"
+    "static/js/main.4af71370.js"
   ]
 }
